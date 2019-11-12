@@ -1,4 +1,4 @@
 API_KEY='test_c8956439f68d87ae7c871905920'
 AUTH_TOKEN='test_7621389d8ed7dbc0716b1a24240'
-API_KEY='test_fc'
-AUTH_TOKEN='test_cd'
+# API_KEY='test_fc'
+# AUTH_TOKEN='test_cd'
