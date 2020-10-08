@@ -10,9 +10,6 @@ ITW2 Project
 #define ld               long double
 #define pii              pair<int,int>
 #define pb               push_back
-#define all(a)           a.begin(),a.end()
-#define print(a)         for(auto b:a)cout<<b<<" ";cout<<endl;
-#define endl             '\n'
 #define F                first
 #define S                second
 #define vi               vector<int>
