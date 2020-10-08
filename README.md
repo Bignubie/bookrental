@@ -36,32 +36,4 @@ template <typename Arg1>
 void __f(const char* name, Arg1&& arg1){
     std::cerr << name << " : " << arg1 << endl;
 }
-template <typename Arg1, typename... Args>
-void __f(const char* names, Arg1&& arg1, Args&&... args){
-    const char* comma = strchr(names + 1, ',');std::cerr.write(names, comma - names) << " : " << arg1<<" | ";__f(comma+1, args...);
-}
-template<typename T, typename U> static inline void amin(T &x, U y) { 
-    if (y < x) 
-        x = y; 
-}
-template<typename T, typename U> static inline void amax(T &x, U y) { 
-    if (x < y) 
-        x = y; 
-}
-
-int solution()
-{
-    
-}
- 
-signed main()
-{
-ios
-int tests=1;
-//cin>>tests;
-while(tests--)
-{
-    solution();
-}
-return 0;
-}
+    lol
