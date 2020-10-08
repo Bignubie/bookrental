@@ -10,9 +10,6 @@ ITW2 Project
 #define ld               long double
 #define pii              pair<int,int>
 #define pb               push_back
-#define all(a)           a.begin(),a.end()
-#define print(a)         for(auto b:a)cout<<b<<" ";cout<<endl;
-#define endl             '\n'
 #define F                first
 #define S                second
 #define vi               vector<int>
@@ -33,35 +30,8 @@ ITW2 Project
 using namespace std;
 using namespace __gnu_pbds;
 template <typename Arg1>
+    
+lol
 void __f(const char* name, Arg1&& arg1){
     std::cerr << name << " : " << arg1 << endl;
-}
-template <typename Arg1, typename... Args>
-void __f(const char* names, Arg1&& arg1, Args&&... args){
-    const char* comma = strchr(names + 1, ',');std::cerr.write(names, comma - names) << " : " << arg1<<" | ";__f(comma+1, args...);
-}
-template<typename T, typename U> static inline void amin(T &x, U y) { 
-    if (y < x) 
-        x = y; 
-}
-template<typename T, typename U> static inline void amax(T &x, U y) { 
-    if (x < y) 
-        x = y; 
-}
-
-int solution()
-{
-    
-}
- 
-signed main()
-{
-ios
-int tests=1;
-//cin>>tests;
-while(tests--)
-{
-    solution();
-}
-return 0;
 }
