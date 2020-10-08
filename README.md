@@ -33,7 +33,8 @@ ITW2 Project
 using namespace std;
 using namespace __gnu_pbds;
 template <typename Arg1>
+    
+lol
 void __f(const char* name, Arg1&& arg1){
     std::cerr << name << " : " << arg1 << endl;
 }
-    lol
